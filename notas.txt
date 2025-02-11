@@ -1,0 +1,38 @@
+1.- Crear los archivos:
+    AutoresForm.jsx dentro de frontend\src\components\Formularios
+    AutorList dentro de frontend\src\components\Listados
+    AñadirAutoresPage.jsx en tesis-biblioteca-main\frontend\src\pages
+    AutoresPage.jsx en tesis-biblioteca-main\frontend\src\pages
+    {basarse en los archivos de libros}
+
+      1.1.- Agregar la ruta dentro de App.jsx con el Path "/agregar-autores"
+      1.2.- Agregar el botón dentro de frontend\src\assets\Menuitems.jsx con iconos
+       importados de React Icons
+
+    ESTEBAN
+
+2.- Crear los archivos:
+    EditorialesForm.jsx dentro de frontend\src\components\Formularios
+    EditoralsList.jsx dentro de frontend\src\components\Listados
+    {basarse en los archivos de Categorias}
+
+      2.1.- Agregar la ruta dentro de App.jsx con el Path "/agregar-editoriales"
+      2.2.- Agregar el botón dentro de frontend\src\assets\Menuitems.jsx con iconos
+       importados de React Icons
+
+    DIEGO  (hecho)
+
+3.- Agregar la información sobre los softwares que envíe angélica  en:
+    tesis-biblioteca-main\frontend\src\documentacion\Documentacion.jsx
+    a partir de la linea 94 (reemplazar la que ya está)
+
+
+/// DOCS EN UN PROYECTO DIFERENTE
+
+
+                ULTIMA ACTUALIZACION
+    1.- al no encontrar registros en la buusqueda arroja un mensaje de error
+    en lugar de crakear la web
+    2.- botones de eliminar y editar fueron eliminados
+    3.- ya no se agrega estado de la entrega 
+
