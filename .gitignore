@@ -1,0 +1,18 @@
+# Node
+node_modules/
+dist/
+.env
+
+# Windows/macOS
+.DS_Store
+Thumbs.db
+
+# VSCode config
+.vscode/
+
+# Logs
+*.log
+
+# Opcional según tu estructura
+frontend/node_modules/
+frontend/dist/

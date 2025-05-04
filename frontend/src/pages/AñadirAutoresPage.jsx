@@ -2,6 +2,7 @@ import CategoriasForm from "../components/Formularios/AutoresForm.jsx";
 import AdminForm from "../components/Formularios/AdminForm.jsx";
 import { useState } from "react";
 import CategList from "../components/Listados/AutorList.jsx";
+import AutorsList from "../components/Listados/AutorList.jsx";
 
 export default function AgregarAutores() {
   /* Estado del formulario de autenticación */
@@ -76,7 +77,7 @@ export default function AgregarAutores() {
             notificacion={notificacion}
             error={error}
           />
-          <CategList/>
+          <AutorsList/>
         </div>
       )}
     </div>

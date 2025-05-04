@@ -18,6 +18,8 @@ import AgregarEditoriales from "./pages/AñadirEditorialsPage.jsx";  // Nueva p�
 import EditorialesPage from "./pages/EditorialsPage.jsx";  // Nueva página
 import AgregarAutores from "./pages/AñadirAutoresPage.jsx";
 import AutoresPages from "./pages/AutoresPage.jsx";
+import AgregarAlumnos from "./pages/AñadirAlumnosPage.jsx";  // Página de agregar alumnos
+import AlumnosPage from "./pages/AlumnosPage.jsx";  // Página que muestra los alumnos
 
 
 function App() {
@@ -28,15 +30,17 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/agregar-registro" element={<AgregarRegistros />} />
         <Route path="/registros" element={<RegistrosPage />} />
+        <Route path="/alumnos" element={<AlumnosPage />} />
         <Route path="/agregar-libro" element={<AgregarLibros />} />
         <Route path="/inventario" element={<Inventario />} />
         <Route path="/libros" element={<InventarioLibros />} />
         <Route path="/categorias" element={<CategoriasPage />} />
         <Route path="/agregar-categorias" element={<AgregarCategorias />} />
         <Route path="/editoriales" element={<EditorialesPage />} />  {/* New route */}
-        <Route path="/agregar-editoriales" element={<AgregarEditoriales/>} />  {/* Nueva ruta */}
+        <Route path="/agregar-editoriales" element={<AgregarEditoriales />} />  {/* Nueva ruta */}
         <Route path="/autores" element={<AutoresPages />}></Route>
         <Route path="/agregar-autores" element={<AgregarAutores />}></Route>
+        <Route path="/agregar-alumnos" element={<AgregarAlumnos />} />  {/* Página de agregar alumnos */}
       </Routes>
     </BrowserRouter>
   );

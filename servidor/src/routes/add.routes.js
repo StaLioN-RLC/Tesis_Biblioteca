@@ -20,7 +20,7 @@ import { registroSchema } from '../schemas/registro.schema.js';
 
 const router = express.Router();
 
-router.post('/alumno', validateSchema(alumnoSchema), addAlumno);
+router.post('/alumno', addAlumno);
 router.post('/libro', validateSchema(libroSchema), addLibro);
 router.post('/categoria', validateSchema(categoriaSchema), addCategoria);
 router.post('/editorial', validateSchema(editorialSchema), addEditorial);

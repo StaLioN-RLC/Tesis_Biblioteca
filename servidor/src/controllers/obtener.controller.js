@@ -56,7 +56,7 @@ export const getRegistro = async (req, res) => {
 /* Modulo de obtener todos los alumnos */
 export const getAlumnos = async (req, res) => {
   try {
-    const [result] = await pool.query("SELECT * FROM alumnos");
+    const [result] = await pool.query("SELECT * FROM alumnos ORDER BY grado ASC, grupo ASC, apellido ASC");
 
     res
       .json({

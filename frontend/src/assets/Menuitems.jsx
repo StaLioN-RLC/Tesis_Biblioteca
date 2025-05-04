@@ -1,7 +1,8 @@
 import { FiBook, FiList } from "react-icons/fi";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { MdNoteAdd, MdOutlinePeople } from "react-icons/md";
-import { TbCategory, TbCategoryPlus, TbBook2, TbBook, } from "react-icons/tb";
+import { TbCategory, TbCategoryPlus, TbBook2, TbBook } from "react-icons/tb";
+import { MdPersonAdd, MdGroup } from "react-icons/md";  // Iconos para Alumnos
 
 export const Menus = [
   {
@@ -30,7 +31,8 @@ export const Menus = [
         icon: BsFillPeopleFill,
         path: "/autores",
       },
-      {name: "Añadir Autores",
+      {
+        name: "Añadir Autores",
         desc: "Añadir un autor",
         icon: MdOutlinePeople,
         path: "/agregar-autores",
@@ -70,6 +72,18 @@ export const Menus = [
         desc: "Añadir un registro",
         icon: FiList,
         path: "/agregar-registro",
+      },
+      {
+        name: "Lista de Alumnos",  // Ruta para la lista de alumnos
+        desc: "Lista de alumnos registrados",
+        icon: MdGroup,  // Icono de grupo para representar alumnos
+        path: "/alumnos",
+      },
+      {
+        name: "Añadir Alumno",  // Ruta para añadir un nuevo alumno
+        desc: "Añadir un nuevo alumno",
+        icon: MdPersonAdd,  // Icono de añadir persona
+        path: "/agregar-alumnos",
       },
     ],
     gridCols: 2,
